@@ -1,4 +1,4 @@
-# **Confusion Matrix Report:**        
+Confusion Matrix Report: 
 
 The model has three classes, possibly corresponding to different types of rice leaf diseases.
 The diagonal elements from the top-left to the bottom-right represent the number of correct predictions for each class:
