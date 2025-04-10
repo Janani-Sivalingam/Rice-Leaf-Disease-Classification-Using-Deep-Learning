@@ -21,7 +21,7 @@ In this format, each class is represented by a binary vector of length equal to 
 
 
 
-#**Data Augmentations:**
+**Data Augmentations:**
 ## Set up and Test the Augmentations
 * We have defined an image augmentation setup below. If you display some of the augmented images they may look strange. However, even though the augmented images may look a bit crazy.
 
