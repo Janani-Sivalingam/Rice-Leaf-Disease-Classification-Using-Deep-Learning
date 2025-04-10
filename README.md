@@ -1,8 +1,32 @@
 # Rice-Leaf-Disease-Classification-Using-Deep-Learning
 Problem Statement: 
+
 **Description:**
+119 jpg images of various sizes, 3 classes -->  brown spot and bacterial leaf blight 40 images per class and leafsmut contains 39 images.
+ - There are no images of normal rice leaves i.e. not disease infected. According to the paper the leaves were placed against a white background before being photographed.
 
-119 jpg images of various sizes 3 classes -->  brown spot and bacterial leaf blight 40 images per class and leafsmut contains 39 images.
- There are no images of normal rice leaves i.e. not disease infected. According to the paper the leaves were placed against a white background before being photographed.
+ - There are images in the dataset that appear to have been processed e.g. the background has been removed. Therefore, we have a mixture of raw and processed images.
 
- There are images in the dataset that appear to have been processed e.g. the background has been removed. Therefore, we have a mixture of raw and processed images.
+**One Hot Encoding Report:**
+
+ **We have three image classes:** "Bacterialleafblight," "brownspot" and "leafsmut"  
+
+**Each class is assigned a unique integer label:** "Bacterialleafblight" -> 0, "brownspot" -> 1, "leafsmut" -> 2.
+To one-hot encode these labels:
+"Bacterialleafblight" becomes [1, 0, 0].
+"brownspot" becomes [0, 1, 0].
+"leafsmut" becomes [0, 0, 1].
+
+In this format, each class is represented by a binary vector of length equal to the number of classes, with one element set to 1 (hot) and others set to 0 (cold).."
+
+
+
+#**Data Augmentations:**
+## Set up and Test the Augmentations
+* We have defined an image augmentation setup below. If you display some of the augmented images they may look strange. However, even though the augmented images may look a bit crazy.
+
+* Perform image augmentation using the Albumentations library. Image augmentation will help to reduce overfitting, improve model performance and help the model generalize better.
+
+# **Transformation Setup Report:**
+
+Transformations and data preprocessing are crucial steps when setting up a Convolutional Neural Network (CNN) for image classification tasks.           Augmentations are usually applied randomly during training to expose the model to various image variations.        the model can effectively learn from the input images, handle variations, and generalize well to make accurate predictions.
