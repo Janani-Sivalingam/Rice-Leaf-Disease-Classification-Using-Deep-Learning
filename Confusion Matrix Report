@@ -1,0 +1,16 @@
+# **Confusion Matrix Report:**        
+
+The model has three classes, possibly corresponding to different types of rice leaf diseases.
+The diagonal elements from the top-left to the bottom-right represent the number of correct predictions for each class:
+
+Class 1 : 5 correct predictions.
+
+Class 2 : 5 correct predictions.
+
+Class 3 : 5 correct predictions.
+
+The off-diagonal elements represent misclassifications. In this case, all off-diagonal elements are zero, indicating that there were no misclassifications.
+The matrix is symmetrical because there were no misclassifications.
+The model achieved perfect accuracy, with all predictions matching the true classes. This is an excellent result, suggesting that the model performed exceptionally well on the given dataset for classifying rice leaf diseases.
+
+This model achieved perfect accuracy, with all predictions matching the true classes. This is an excellent result, suggesting that the model performed exceptionally well on the given dataset for classifying rice leaf diseases.
