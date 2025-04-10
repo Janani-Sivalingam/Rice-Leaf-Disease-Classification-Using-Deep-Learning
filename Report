@@ -1,0 +1,12 @@
+Report:
+Precision:Precision measures the accuracy of positive predictions. A precision of 1.00 for each class indicates that there were no false positive predictions for any class.
+
+Recall: Recall measures the ability of the model to identify all relevant instances. A recall of 1.00 for each class indicates that there were no false negative predictions for any class.
+
+F1-Score: The F1-score is the harmonic mean of precision and recall and provides a balanced measure of model performance. A F1-score of 1.00 for each class indicates perfect precision and recall.
+
+Support:The support column indicates the number of samples in each class.
+
+Accuracy: The overall accuracy of the model is 1.00, indicating that the model correctly predicted all samples in the dataset.
+
+This classification report suggests that the model performed exceptionally well on this dataset, achieving perfect precision, recall, and F1-score for all three classes. The high accuracy score reinforces the model's excellent performance. However, it's essential to ensure that the dataset and evaluation methodology are appropriate for the task to avoid potential issues with overfitting or data leakage.
